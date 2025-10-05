@@ -1,0 +1,59 @@
+    1  git
+    2  cd login
+    3  cd ..
+    4  cd ..
+    5  cd taller_git
+    6  cd login
+    7  git remote add origin https://github.com/Veritog15/taller-git.git
+    8  git branch -M main
+    9  git push -u origin main
+   10  git checout main
+   11  git checkout develop
+   12  git push -u origin develop
+   13  cd Desktop
+   14  cd practicasU
+   15  cd ani-react-native
+   16  npx expo-doctor
+   17  yarn add expo
+   18  npm install @epo/config-plugins@~8.0.0
+   19  npm install @expo/config-plugins@~8.0.0
+   20  Remove-Item -Recurse -Force node_modules, package-lock.json
+   21  npm i
+   22  npx expo-doctor
+   23  npm install expo-router
+   24  mkdir proyecto_comandos
+   25  cd proyecto_comandos
+   26  mkdir documentos
+   27  mkdir imagenes
+   28  mkdir scripts
+   29  cd imagenes
+   30  touch notas.txt
+   31  cd ..
+   32  cd documentos 
+   33  touch notas.txt
+   34  echo "Hola, este archivo de texto sera usado como practica" > notas.txt
+   35  cp notas.txt scripts/backup_notas.txt
+   36  cd ..
+   37  cp notas.txt scripts/backup_notas.txt
+   38  cd scripts
+   39  cp notas.txt scripts/backup_notas.txt
+   40  cp documentos/notas.txt scripts/backup_notas.txt
+   41  cd ..
+   42  cp documentos/notas.txt scripts/backup_notas.txt
+   43  mv scripts/backup_notas.txt imagenes/
+   44  cd imagenes
+   45  ls
+   46  cd ..
+   47  cd documentos
+   48  touch resumen.txt
+   49  cd ..
+   50  cat notas.txt > documentos/resumen.txt
+   51  cat documentos/notas.txt > documentos/resumen.txt
+   52  cd documentos
+   53  echo "Otra linea para comprobar" >> resumen.txt
+   54  rm imagenes/backup_notas.txt
+   55  cd ..
+   56  rm imagenes/backup_notas.txt
+   57  rm imagenes
+   58  rm -r imagenes
+   59  history | tee tarea-s1-veronica_guerrero.txt
